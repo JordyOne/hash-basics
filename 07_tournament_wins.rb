@@ -9,7 +9,6 @@ wins = {
   }
 }
 
-
 BJORN_BORG["tournament_wins"] = wins
-print BJORN_BORG["tournament_wins"][:tournament_wins][:wimbledon][0] + ' ' + BJORN_BORG["tournament_wins"][:tournament_wins][:wimbledon][4]
+p "#{BJORN_BORG["tournament_wins"][:tournament_wins][:wimbledon][0]}, #{BJORN_BORG["tournament_wins"][:tournament_wins][:wimbledon][-1]}"
 
